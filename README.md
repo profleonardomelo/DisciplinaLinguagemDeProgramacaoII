@@ -1,2 +1,2 @@
 # DisciplinaLinguagemDeProgramacaoII
-Material de apoio à disciplina Linguagem De Programacao II.
+Material de apoio a disciplina Linguagem De Programacao II.
