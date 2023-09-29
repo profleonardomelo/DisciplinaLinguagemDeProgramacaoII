@@ -1,0 +1,31 @@
+Passos executados apenas uma vez no início de um projeto:
+
+1) Crie um novo projeto vazio java no netbeans (Java with Ant -> Java Application);
+
+2) Dentro do projeto, crie os pacotes VIEW, DAO, DTO e UTIL;
+
+3) Dentro do pacote UTIL adicione o conector java (mysql-connector-java-8.0.29.jar);
+
+4) Em configurações do projeto, associe o conector java ao projeto 
+(Properties->Libraries->Classpath->Add JAR/Folder);
+
+5) Dentro do pacote DAO adicione a classe GerenciadorBD com seu conteúdo;
+
+Passos executados para cada entidade (tabela) nova do banco de dados:
+
+6) Dentro do pacote DTO adicione uma classe correspondente a tabela de banco de 
+dados em questão (no nosso exemplo a classe Cliente) com o conteúdo dessa classe;
+
+7) Dentro do pacote DAO adicione uma classe correspondente a tabela de banco de 
+dados em questão (no nosso exemplo a classe ClienteDAO) com o conteúdo dessa classe;
+
+8) Dentro do pacote VIEW adicione as classes que correspondem as telas da aplicação
+com seus conteúdos (criar design de tela e eventos dos componentes). No nosso exemplo, 
+as telas: 
+
+-TelaDeCadastroDeClienteGUI;
+-TelaDeListagemDeClientesGUI;
+-TelaDeAlteracaoDeClientesGUI;
+-TelaDeExclusaoDeClientesGUI;
+-TelaDePesquisaDeClienteGUI.
+
