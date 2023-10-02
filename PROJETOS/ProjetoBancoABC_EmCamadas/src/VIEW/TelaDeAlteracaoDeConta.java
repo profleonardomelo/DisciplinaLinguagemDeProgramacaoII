@@ -31,7 +31,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         btnLimpar = new javax.swing.JButton();
         btnAlterar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Sistema IFBA - Tela de Alteração de Conta");
         setResizable(false);
 

@@ -25,7 +25,7 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblContas = new javax.swing.JTable();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Sistema IFBA - Tela de Pesquisa de Contas");
         setResizable(false);
 

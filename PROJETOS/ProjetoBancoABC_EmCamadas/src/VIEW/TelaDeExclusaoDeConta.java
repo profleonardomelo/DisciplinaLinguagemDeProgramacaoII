@@ -22,7 +22,7 @@ public class TelaDeExclusaoDeConta extends javax.swing.JFrame {
         btnExcluir = new javax.swing.JButton();
         btnLimpar = new javax.swing.JButton();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Sistema IFBA - Tela de Exclusão de Conta");
         setResizable(false);
 

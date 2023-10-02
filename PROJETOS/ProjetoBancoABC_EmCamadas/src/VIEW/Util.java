@@ -17,4 +17,12 @@ public class Util {
             evt.consume();
         }
     }
+    
+    public static void permiterDigitarSomenteNumerosELetras(java.awt.event.KeyEvent evt) {
+        char c = evt.getKeyChar();
+
+        if (!Character.isDigit(c) && !Character.isAlphabetic(c)) {
+            evt.consume();
+        }
+    }
 }
