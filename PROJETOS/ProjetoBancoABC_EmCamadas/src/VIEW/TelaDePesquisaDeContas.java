@@ -135,7 +135,8 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
                 
                 tabelaContas.addRow(conta);
             }
-
+            
+            JOptionPane.showMessageDialog(this, "Pesquisa realizada com sucesso!");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar pesquisar contas.");
         }

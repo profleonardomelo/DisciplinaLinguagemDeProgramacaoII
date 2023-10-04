@@ -16,7 +16,8 @@ public class ContaDAO {
     }
 
     public void cadastrar(ContaDTO contaDTO) throws Exception {
-        try (Connection conexao = bd.conectar(); PreparedStatement comando = conexao.prepareStatement(
+        try (Connection conexao = bd.conectar(); 
+                PreparedStatement comando = conexao.prepareStatement(
                 "INSERT INTO conta (numero, saldo, limite) VALUES (?, ?, ?)")) {
             comando.setInt(1, contaDTO.getNumero());
             comando.setDouble(2, contaDTO.getSaldo());
@@ -29,8 +30,12 @@ public class ContaDAO {
     public List<ContaDTO> listar() throws Exception {
         List<ContaDTO> listaDeContasDTO = new ArrayList<>();
 
-        try (Connection conexao = bd.conectar(); PreparedStatement comando = conexao.prepareStatement(
-                "SELECT id, numero, saldo, limite FROM conta"); ResultSet tabela = comando.executeQuery()) {
+        try (Connection conexao = bd.conectar(); 
+                PreparedStatement comando = conexao.prepareStatement(
+                "SELECT id, numero, saldo, limite FROM conta"); 
+                ResultSet tabela = comando.executeQuery()
+                )
+        {
             while (tabela.next()) {
                 ContaDTO contaDTO = new ContaDTO();
 
@@ -49,7 +54,8 @@ public class ContaDAO {
     public List<ContaDTO> pesquisar(ContaDTO contaDTO) throws Exception {
         List<ContaDTO> listaDeContasDTO = new ArrayList<>();
 
-        try (Connection conexao = bd.conectar(); PreparedStatement comando = conexao.prepareStatement(
+        try (Connection conexao = bd.conectar(); 
+                PreparedStatement comando = conexao.prepareStatement(
                 "SELECT id, numero, saldo, limite FROM conta "
                 + "WHERE CONVERT(numero, CHAR) LIKE ?");) {
 
@@ -73,7 +79,8 @@ public class ContaDAO {
     }
 
     public void alterar(ContaDTO contaDTO) throws Exception {
-        try (Connection conexao = bd.conectar(); PreparedStatement comando = conexao.prepareStatement(
+        try (Connection conexao = bd.conectar(); 
+                PreparedStatement comando = conexao.prepareStatement(
                 "UPDATE conta SET numero = ?, saldo = ?, limite = ? WHERE id = ?")) {
             comando.setInt(1, contaDTO.getNumero());
             comando.setDouble(2, contaDTO.getSaldo());
@@ -85,7 +92,8 @@ public class ContaDAO {
     }
 
     public void excluir(ContaDTO contaDTO) throws Exception {
-        try (Connection conexao = bd.conectar(); PreparedStatement comando = conexao.prepareStatement(
+        try (Connection conexao = bd.conectar(); 
+                PreparedStatement comando = conexao.prepareStatement(
                 "DELETE FROM conta WHERE id = ?")) {
             comando.setInt(1, contaDTO.getId());
 
