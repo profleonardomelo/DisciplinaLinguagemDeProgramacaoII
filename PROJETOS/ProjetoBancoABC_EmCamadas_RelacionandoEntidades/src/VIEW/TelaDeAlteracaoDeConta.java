@@ -1,16 +1,40 @@
 package VIEW;
 
+import DAO.ClienteDAO;
 import DAO.ContaDAO;
 import DTO.ContaDTO;
+import DTO.ClienteDTO;
+import java.util.List;
 import javax.swing.JOptionPane;
 
 public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
 
     public TelaDeAlteracaoDeConta() {
-       
+
         initComponents();
-       
+
         this.setLocationRelativeTo(null);
+        
+        CarregarComboClientes();
+    }
+    
+    private void CarregarComboClientes()
+    {
+        try {
+
+            List<ClienteDTO> listaDeClientesDTO = new ClienteDAO().listar();
+
+            ClienteDTO clienteDTO = new ClienteDTO();
+            clienteDTO.setNome(" ---- ");
+            
+            cmbCliente.addItem(clienteDTO);
+            
+            for (ClienteDTO clienteDTO_ : listaDeClientesDTO) {
+                cmbCliente.addItem(clienteDTO_);
+            }
+
+        } catch (Exception e) {
+        }
     }
 
     @SuppressWarnings("unchecked")
@@ -28,6 +52,8 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         txtLimite = new javax.swing.JTextField();
         btnLimpar = new javax.swing.JButton();
         btnAlterar = new javax.swing.JButton();
+        cmbCliente = new javax.swing.JComboBox<>();
+        lblCliente = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setTitle("Sistema IFBA - Tela de Alteração de Conta");
@@ -93,6 +119,11 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             }
         });
 
+        cmbCliente.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+
+        lblCliente.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblCliente.setText("Cliente:");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -105,25 +136,30 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
                 .addGap(20, 20, 20))
             .addGroup(layout.createSequentialGroup()
                 .addGap(83, 83, 83)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblId, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(cmbCliente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(lblSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblId, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(lblNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(97, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -131,7 +167,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addComponent(lblTitulo)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblId)
                     .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -147,7 +183,11 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblLimite)
                     .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblCliente)
+                    .addComponent(cmbCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 40, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnLimpar)
                     .addComponent(btnAlterar))
@@ -158,41 +198,41 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtIdKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtIdKeyTyped
-        
+
         Util.permiterDigitarSomenteNumeros(evt);
-        
+
     }//GEN-LAST:event_txtIdKeyTyped
 
     private void txtNumeroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtNumeroKeyTyped
 
         Util.permiterDigitarSomenteNumeros(evt);
-        
+
     }//GEN-LAST:event_txtNumeroKeyTyped
 
     private void txtSaldoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSaldoKeyTyped
 
         Util.permiterDigitarSomenteNumerosEVirgula(evt);
-        
+
     }//GEN-LAST:event_txtSaldoKeyTyped
 
     private void txtLimiteKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtLimiteKeyTyped
 
-       Util.permiterDigitarSomenteNumerosEVirgula(evt);
-       
+        Util.permiterDigitarSomenteNumerosEVirgula(evt);
+
     }//GEN-LAST:event_txtLimiteKeyTyped
 
-    private void LimparCampos()
-    {
+    private void LimparCampos() {
         txtId.setText("");
         txtNumero.setText("");
         txtSaldo.setText("");
         txtLimite.setText("");
+        cmbCliente.setSelectedIndex(0);
     }
-    
+
     private void btnLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparActionPerformed
-        
+
         LimparCampos();
-        
+
     }//GEN-LAST:event_btnLimparActionPerformed
 
     private void btnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAlterarActionPerformed
@@ -204,6 +244,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             contaDTO.setNumero(Integer.parseInt(txtNumero.getText()));
             contaDTO.setSaldo(Double.parseDouble(txtSaldo.getText().replace(',', '.')));
             contaDTO.setLimite(Double.parseDouble(txtLimite.getText().replace(',', '.')));
+            contaDTO.setClienteId(((ClienteDTO) cmbCliente.getSelectedItem()).getId());
 
             new ContaDAO().alterar(contaDTO);
 
@@ -213,7 +254,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         }
 
         LimparCampos();
-        
+
     }//GEN-LAST:event_btnAlterarActionPerformed
 
     public static void main(String args[]) {
@@ -240,7 +281,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         }
         //</editor-fold>
         //</editor-fold>
-        
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -252,6 +293,8 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAlterar;
     private javax.swing.JButton btnLimpar;
+    private javax.swing.JComboBox<ClienteDTO> cmbCliente;
+    private javax.swing.JLabel lblCliente;
     private javax.swing.JLabel lblId;
     private javax.swing.JLabel lblLimite;
     private javax.swing.JLabel lblNumero;

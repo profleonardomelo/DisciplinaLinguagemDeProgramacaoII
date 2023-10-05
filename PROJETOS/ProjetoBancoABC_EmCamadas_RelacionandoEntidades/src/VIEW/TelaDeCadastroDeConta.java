@@ -1,25 +1,48 @@
 package VIEW;
 
+import DAO.ClienteDAO;
 import DAO.ContaDAO;
 import DTO.ContaDTO;
+import DTO.ClienteDTO;
+import java.util.List;
 import javax.swing.JOptionPane;
 
-public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
+public class TelaDeCadastroDeConta extends javax.swing.JFrame {
 
-    public TelaDeAlteracaoDeConta() {
-       
+    public TelaDeCadastroDeConta() {
+
         initComponents();
-       
+
         this.setLocationRelativeTo(null);
+
+        CarregarComboClientes();
+    }
+    
+    private void CarregarComboClientes()
+    {
+        try {
+
+            List<ClienteDTO> listaDeClientesDTO = new ClienteDAO().listar();
+
+            ClienteDTO clienteDTO = new ClienteDTO();
+            clienteDTO.setNome(" ---- ");
+            
+            cmbCliente.addItem(clienteDTO);
+            
+            for (ClienteDTO clienteDTO_ : listaDeClientesDTO) {
+                cmbCliente.addItem(clienteDTO_);
+            }
+
+        } catch (Exception e) {
+        }
     }
 
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        btnCadastrar = new javax.swing.JButton();
         lblTitulo = new javax.swing.JLabel();
-        lblId = new javax.swing.JLabel();
-        txtId = new javax.swing.JTextField();
         lblNumero = new javax.swing.JLabel();
         txtNumero = new javax.swing.JTextField();
         lblSaldo = new javax.swing.JLabel();
@@ -27,25 +50,23 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         lblLimite = new javax.swing.JLabel();
         txtLimite = new javax.swing.JTextField();
         btnLimpar = new javax.swing.JButton();
-        btnAlterar = new javax.swing.JButton();
+        lblCliente = new javax.swing.JLabel();
+        cmbCliente = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        setTitle("Sistema IFBA - Tela de Alteração de Conta");
+        setTitle("Sistema IFBA - Tela de Cadastro de Conta");
         setResizable(false);
 
-        lblTitulo.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
-        lblTitulo.setText("Alteração de Conta");
-
-        lblId.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        lblId.setText("ID:");
-        lblId.setToolTipText("");
-
-        txtId.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        txtId.addKeyListener(new java.awt.event.KeyAdapter() {
-            public void keyTyped(java.awt.event.KeyEvent evt) {
-                txtIdKeyTyped(evt);
+        btnCadastrar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        btnCadastrar.setText("Cadastrar");
+        btnCadastrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadastrarActionPerformed(evt);
             }
         });
+
+        lblTitulo.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        lblTitulo.setText("Cadastro de Conta");
 
         lblNumero.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         lblNumero.setText("Número:");
@@ -85,13 +106,10 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             }
         });
 
-        btnAlterar.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        btnAlterar.setText("Alterar");
-        btnAlterar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnAlterarActionPerformed(evt);
-            }
-        });
+        lblCliente.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lblCliente.setText("Cliente:");
+
+        cmbCliente.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -101,29 +119,30 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btnLimpar, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btnAlterar, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnCadastrar)
                 .addGap(20, 20, 20))
             .addGroup(layout.createSequentialGroup()
                 .addGap(83, 83, 83)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblId, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(lblCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(lblLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(cmbCliente, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                         .addGroup(layout.createSequentialGroup()
-                            .addComponent(lblSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(lblNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtSaldo, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(lblNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(lblTitulo, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(97, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -131,11 +150,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(30, 30, 30)
                 .addComponent(lblTitulo)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(lblId)
-                    .addComponent(txtId, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(29, 29, 29)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblNumero)
                     .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -147,74 +162,72 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblLimite)
                     .addComponent(txtLimite, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(26, 26, 26)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnLimpar)
-                    .addComponent(btnAlterar))
-                .addGap(14, 14, 14))
+                    .addComponent(lblCliente)
+                    .addComponent(cmbCliente, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 43, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnCadastrar)
+                    .addComponent(btnLimpar))
+                .addGap(17, 17, 17))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtIdKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtIdKeyTyped
-        
-        Util.permiterDigitarSomenteNumeros(evt);
-        
-    }//GEN-LAST:event_txtIdKeyTyped
+    private void LimparCampos() {
+
+        txtNumero.setText("");
+        txtSaldo.setText("");
+        txtLimite.setText("");
+        cmbCliente.setSelectedIndex(0);
+
+    }
+
+    private void btnCadastrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadastrarActionPerformed
+        try {
+            ContaDTO contaDTO = new ContaDTO();
+
+            contaDTO.setNumero(Integer.parseInt(txtNumero.getText()));
+            contaDTO.setSaldo(Double.parseDouble(txtSaldo.getText().replace(',', '.')));
+            contaDTO.setLimite(Double.parseDouble(txtLimite.getText().replace(',', '.')));
+            contaDTO.setClienteId(((ClienteDTO) cmbCliente.getSelectedItem()).getId());
+            
+            new ContaDAO().cadastrar(contaDTO);
+
+            JOptionPane.showMessageDialog(this, "Cadastro realizado com sucesso!");
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(this, "Erro ao tentar cadastrar uma nova conta!");
+        }
+
+        LimparCampos();
+    }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void txtNumeroKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtNumeroKeyTyped
 
         Util.permiterDigitarSomenteNumeros(evt);
-        
+
     }//GEN-LAST:event_txtNumeroKeyTyped
 
     private void txtSaldoKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtSaldoKeyTyped
 
         Util.permiterDigitarSomenteNumerosEVirgula(evt);
-        
+
     }//GEN-LAST:event_txtSaldoKeyTyped
 
     private void txtLimiteKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtLimiteKeyTyped
 
-       Util.permiterDigitarSomenteNumerosEVirgula(evt);
-       
+        Util.permiterDigitarSomenteNumerosEVirgula(evt);
+
     }//GEN-LAST:event_txtLimiteKeyTyped
 
-    private void LimparCampos()
-    {
-        txtId.setText("");
-        txtNumero.setText("");
-        txtSaldo.setText("");
-        txtLimite.setText("");
-    }
-    
+
     private void btnLimparActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLimparActionPerformed
-        
+
         LimparCampos();
-        
+
     }//GEN-LAST:event_btnLimparActionPerformed
-
-    private void btnAlterarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAlterarActionPerformed
-
-        try {
-            ContaDTO contaDTO = new ContaDTO();
-
-            contaDTO.setId(Integer.parseInt(txtId.getText()));
-            contaDTO.setNumero(Integer.parseInt(txtNumero.getText()));
-            contaDTO.setSaldo(Double.parseDouble(txtSaldo.getText().replace(',', '.')));
-            contaDTO.setLimite(Double.parseDouble(txtLimite.getText().replace(',', '.')));
-
-            new ContaDAO().alterar(contaDTO);
-
-            JOptionPane.showMessageDialog(this, "Alteração realizada com sucesso!");
-        } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma nova conta!");
-        }
-
-        LimparCampos();
-        
-    }//GEN-LAST:event_btnAlterarActionPerformed
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
@@ -230,34 +243,34 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TelaDeAlteracaoDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaDeCadastroDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TelaDeAlteracaoDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaDeCadastroDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TelaDeAlteracaoDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaDeCadastroDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TelaDeAlteracaoDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(TelaDeCadastroDeConta.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
-        
+
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new TelaDeAlteracaoDeConta().setVisible(true);
+                new TelaDeCadastroDeConta().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnAlterar;
+    private javax.swing.JButton btnCadastrar;
     private javax.swing.JButton btnLimpar;
-    private javax.swing.JLabel lblId;
+    private javax.swing.JComboBox<ClienteDTO> cmbCliente;
+    private javax.swing.JLabel lblCliente;
     private javax.swing.JLabel lblLimite;
     private javax.swing.JLabel lblNumero;
     private javax.swing.JLabel lblSaldo;
     private javax.swing.JLabel lblTitulo;
-    private javax.swing.JTextField txtId;
     private javax.swing.JTextField txtLimite;
     private javax.swing.JTextField txtNumero;
     private javax.swing.JTextField txtSaldo;
