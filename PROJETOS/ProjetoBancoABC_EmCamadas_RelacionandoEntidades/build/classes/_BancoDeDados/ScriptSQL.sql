@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `conta` (
   `cliente_id` INT NOT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `fk_conta_cliente` FOREIGN KEY (`cliente_id`) 
-REFERENCES `bancoabc`.`cliente` (`id`)
+REFERENCES `cliente` (`id`)
  );
 
 CREATE TABLE IF NOT EXISTS `acesso` (
