@@ -209,7 +209,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
 
             JOptionPane.showMessageDialog(this, "Alteração realizada com sucesso!");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma nova conta!");
+            JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma conta!");
         }
 
         LimparCampos();

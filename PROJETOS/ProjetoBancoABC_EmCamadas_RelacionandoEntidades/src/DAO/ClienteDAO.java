@@ -38,7 +38,7 @@ public class ClienteDAO {
         return listaDeClientesDTO;
     }
     
-    public ClienteDTO buscarPorId(ClienteDTO clienteDTO) throws Exception {
+    public ClienteDTO pesquisarPorId(ClienteDTO clienteDTO) throws Exception {
 
         try (Connection conexao = bd.conectar();
                 PreparedStatement comando = conexao.prepareStatement(

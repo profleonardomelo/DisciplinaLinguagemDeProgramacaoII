@@ -30,7 +30,7 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
                 ClienteDTO clienteDTO = new ClienteDTO();
                 clienteDTO.setId(contaDTO.getClienteId());
                 
-                clienteDTO = new ClienteDAO().buscarPorId(clienteDTO);
+                clienteDTO = new ClienteDAO().pesquisarPorId(clienteDTO);
                 
                 Object[] conta = new Object[]{
                     
@@ -38,7 +38,7 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
                     contaDTO.getNumero(),
                     contaDTO.getSaldo(),
                     contaDTO.getLimite(),
-                    clienteDTO.getNome()
+                    clienteDTO
                 };
                 
                 tabelaContas.addRow(conta);

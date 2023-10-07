@@ -129,7 +129,7 @@ public class TelaDeExclusaoDeConta extends javax.swing.JFrame {
         }
         txtId.setText("");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Erro ao tentar excluir a conta!");
+            JOptionPane.showMessageDialog(this, "Erro ao tentar excluir uma conta!");
         }
     }//GEN-LAST:event_btnExcluirActionPerformed
 

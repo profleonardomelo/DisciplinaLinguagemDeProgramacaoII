@@ -229,7 +229,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             txtSaldo.setText("");
             txtLimite.setText("");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma nova conta!");
+            JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma conta!");
         }
     }//GEN-LAST:event_btnAlterarActionPerformed
 

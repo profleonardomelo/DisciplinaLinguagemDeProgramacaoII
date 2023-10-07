@@ -1,6 +1,6 @@
-CREATE SCHEMA IF NOT EXISTS `bancoabc`;
+CREATE SCHEMA IF NOT EXISTS `bancoabc_camadas`;
 
-USE `bancoabc` ;
+USE `bancoabc_camadas` ;
 
 CREATE TABLE IF NOT EXISTS `conta` (
   `id` int NOT NULL AUTO_INCREMENT,

@@ -1,6 +1,6 @@
-CREATE SCHEMA IF NOT EXISTS `bancoabc`;
+CREATE SCHEMA IF NOT EXISTS `bancoabc_camadas_rel_entidades`;
 
-USE `bancoabc`;
+USE `bancoabc_camadas_rel_entidades`;
 
 CREATE TABLE IF NOT EXISTS `cliente` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -35,7 +35,8 @@ CREATE TABLE IF NOT EXISTS `conta` (
   `limite` DOUBLE NOT NULL,
   `cliente_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  CONSTRAINT `fk_conta_cliente` FOREIGN KEY (`cliente_id`) REFERENCES `bancoabc`.`cliente` (`id`)
+  CONSTRAINT `fk_conta_cliente` FOREIGN KEY (`cliente_id`) 
+REFERENCES `bancoabc`.`cliente` (`id`)
  );
 
 CREATE TABLE IF NOT EXISTS `acesso` (

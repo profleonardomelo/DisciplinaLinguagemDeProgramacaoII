@@ -130,7 +130,7 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
                 ClienteDTO clienteDTO = new ClienteDTO();
                 clienteDTO.setId(contaDTO_.getClienteId());
                 
-                clienteDTO = new ClienteDAO().buscarPorId(clienteDTO);
+                clienteDTO = new ClienteDAO().pesquisarPorId(clienteDTO);
                 
                 Object[] conta = new Object[]{
                     
@@ -138,7 +138,7 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
                     contaDTO_.getNumero(),
                     contaDTO_.getSaldo(),
                     contaDTO_.getLimite(),
-                    clienteDTO.getNome()
+                    clienteDTO
                 };
                 
                 tabelaContas.addRow(conta);
