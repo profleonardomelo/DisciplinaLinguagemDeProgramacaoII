@@ -1,0 +1,2 @@
+//Bom arquigo sobre JNI e NETBEANS
+https://netbeans.apache.org/kb/docs/cnd/beginning-jni-linux_pt_BR.html
