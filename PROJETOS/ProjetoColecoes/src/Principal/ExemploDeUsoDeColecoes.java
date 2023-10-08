@@ -20,6 +20,9 @@ public class ExemploDeUsoDeColecoes {
         
         Estudante estudante4 = new Estudante("Ana", 25);
         listaDeEstudantes.add(estudante4);
+        
+        Estudante estudante5 = new Estudante("Lucas", 25);
+        listaDeEstudantes.add(estudante5);
 
         listaDeEstudantes.remove(2);
         listaDeEstudantes.remove(estudante4);
