@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula - Java JNDI</title>
+</head>
+<body>
+
+<h1>Aula - Java JNDI</h1>
+
+<h2>Introdução ao JNDI</h2>
+
+<p>O Java Naming and Directory Interface (JNDI) é uma API que fornece um mecanismo comum para acessar diferentes serviços de diretório e serviços de nome em uma rede. Ela é parte integrante da plataforma Java e é utilizada para procurar e manipular objetos em um ambiente distribuído.</p>
+
+<h2>Objetivos</h2>
+
+<p>Nesta aula, vamos aprender sobre:</p>
+
+<ol>
+    <li>O que é JNDI e para que serve</li>
+    <li>Como usar o JNDI</li>
+    <li>Configuração de Serviços de Nome</li>
+    <li>Busca e Manipulação de Objetos usando JNDI</li>
+</ol>
+
+<h3>1. O que é JNDI e para que serve?</h3>
+
+<p>O JNDI é uma API que permite a um aplicativo Java descobrir e obter objetos de um ambiente distribuído. Isso é especialmente útil em sistemas distribuídos, onde diferentes partes de um aplicativo podem estar rodando em máquinas diferentes.</p>
+
+<p>Ele pode ser usado para acessar serviços de diretório (como LDAP) e também serviços de nome (como o RMI Registry). O JNDI é muito utilizado em aplicações empresariais e em servidores de aplicativos Java EE.</p>
+
+<h3>2. Como usar o JNDI</h3>
+
+<h4>2.1. Importando as Classes</h4>
+
+<p>Para começar a usar o JNDI, você precisa importar as classes necessárias. Por exemplo:</p>
+
+<pre>
+<code>import javax.naming.*;</code>
+</pre>
+
+<h4>2.2. Criando um Contexto Inicial</h4>
+
+<p>O contexto inicial é o ponto de entrada para o JNDI. Ele representa o diretório raiz a partir do qual você pode começar a procurar por objetos.</p>
+
+<pre>
+<code>Context ctx = new InitialContext();</code>
+</pre>
+
+<h4>2.3. Procurando Objetos</h4>
+
+<p>Você pode usar o contexto para procurar objetos. Por exemplo, para procurar um objeto chamado "myObject":</p>
+
+<pre>
+<code>Object myObject = ctx.lookup("myObject");</code>
+</pre>
+
+<h3>3. Configuração de Serviços de Nome</h3>
+
+<p>Para usar o JNDI, você precisa configurar os serviços de nome no ambiente onde o seu aplicativo está sendo executado. Isso geralmente envolve a configuração de arquivos de propriedades ou a configuração em um servidor de aplicativos.</p>
+
+<h3>4. Busca e Manipulação de Objetos usando JNDI</h3>
+
+<p>Além de procurar objetos, o JNDI também suporta outras operações, como adicionar, modificar e remover objetos do diretório.</p>
+
+<pre>
+<code>// Adicionando um objeto
+ctx.bind("meuNovoObjeto", meuObjeto);
+
+// Removendo um objeto
+ctx.unbind("meuNovoObjeto");
+</code>
+</pre>
+
+<h2>Conclusão</h2>
+
+<p>O Java Naming and Directory Interface (JNDI) é uma parte crucial do desenvolvimento de aplicações distribuídas em Java. Permite que aplicativos encontrem e interajam com objetos em um ambiente distribuído. Compreender como usar o JNDI e configurar os serviços de nome é essencial para trabalhar com sistemas distribuídos em Java.</p>
+
+<p>Esta aula foi uma introdução ao JNDI. Existem muitos detalhes e nuances que podem ser explorados em maior profundidade à medida que você avança no seu aprendizado.</p>
+
+<p>Espero que esta aula tenha sido útil! Se você tiver mais perguntas ou quiser aprender mais sobre algum aspecto específico do JNDI, fique à vontade para perguntar.</p>
+
+</body>
+</html>
+
