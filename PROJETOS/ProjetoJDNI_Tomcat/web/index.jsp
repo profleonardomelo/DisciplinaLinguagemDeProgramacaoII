@@ -25,9 +25,9 @@
 
             // Processando os resultados
             while (resultSet.next()) {
-                out.println("ID: " + resultSet.getString("id") + " - ");
-                out.println("Número: " + resultSet.getString("numero") + " - ");
-                out.println("Saldo: " + resultSet.getString("saldo") + " - ");
+                out.println("ID: " + resultSet.getString("id") + " --- ");
+                out.println("Número: " + resultSet.getString("numero") + " --- ");
+                out.println("Saldo: " + resultSet.getString("saldo") + " --- ");
                 out.println("Limite: " + resultSet.getString("limite") + "<br>");
             }
 
