@@ -7,19 +7,20 @@ import java.util.Scanner;
 public class Cliente {
     public static void main(String[] args) throws Exception {
         
-        Socket cliente = new Socket("127.0.0.1", 12345);
+        Socket servidor = new Socket("127.0.0.1", 12345);
         
         System.out.println("Este cliente se conectou ao servidor!");
 
-        Scanner teclado = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
         
-        PrintStream saida = new PrintStream(cliente.getOutputStream());
+        PrintStream saidaNoServidor = new PrintStream(servidor.getOutputStream());
 
-        while (teclado.hasNextLine()) {
-            saida.println(teclado.nextLine());
+        while (leitor.hasNextLine()) {
+            saidaNoServidor.println(leitor.nextLine());
         }
 
-        saida.close();
-        teclado.close();
+        saidaNoServidor.close();
+        leitor.close();
+        servidor.close();
     }
 }
