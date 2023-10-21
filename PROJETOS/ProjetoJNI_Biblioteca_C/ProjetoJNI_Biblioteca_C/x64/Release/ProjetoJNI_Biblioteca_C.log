@@ -1,0 +1,2 @@
+﻿  BibliotecaBasica.c
+C:\Users\leomi\Desktop\A\ProjetoJNI_Biblioteca_C\ProjetoJNI_Biblioteca_C\BibliotecaBasica.c(1,10): fatal  error C1083: Não é possível abrir arquivo incluir: 'jni.h': No such file or directory
