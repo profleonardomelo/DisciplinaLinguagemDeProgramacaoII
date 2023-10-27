@@ -25,6 +25,8 @@ public class Tela2 extends javax.swing.JInternalFrame {
         lblTitulo.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         lblTitulo.setText(" Tela 2");
 
+        scpPrincipal.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 0, 0, 0));
+
         txaTeste.setColumns(20);
         txaTeste.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         txaTeste.setRows(5);
