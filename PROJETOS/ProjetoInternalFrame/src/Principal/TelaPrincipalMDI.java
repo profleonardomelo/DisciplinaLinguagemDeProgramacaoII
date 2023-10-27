@@ -93,7 +93,6 @@ public class TelaPrincipalMDI extends javax.swing.JFrame {
 
         desktopPane.add(tela1);
         tela1.setVisible(true);
-
     }//GEN-LAST:event_btnTela1ActionPerformed
 
     private void btnTela2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTela2ActionPerformed
