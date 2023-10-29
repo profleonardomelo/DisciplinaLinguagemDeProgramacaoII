@@ -13,11 +13,6 @@ public class Cliente {
         this.email = email;
     }
 
-    @Override
-    public String toString() {
-        return "ID: " + getId() + ", Nome: " + getNome() + ", CPF: " + getCpf() + ", E-mail: " + getEmail();
-    }
-
     public int getId() {
         return id;
     }
