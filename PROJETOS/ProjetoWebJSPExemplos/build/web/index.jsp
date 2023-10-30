@@ -12,7 +12,7 @@
     <body>
         <h1>Exercícios JSP</h1>
 
-        <h2>Exemplo escreve na página os números de 0 a 10 verticalmente</h2>
+        <h2 id="index1">Exemplo escreve na página os números de 0 a 10 verticalmente</h2>
         <p>
             <%
                 for (int i = 0; i <= 10; i++) {
@@ -20,9 +20,12 @@
                 }
             %>
         </p>
+
+        <br>
+        <h3><a href="index1.jsp">index1.jsp</a></h3>
         <br>
 
-        <h2>Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6)</h2>
+        <h2 id="index2">Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6)</h2>
 
         <%
             String mensagem = "Olá mundo JAVA JSP";
@@ -32,8 +35,10 @@
         %>
 
         <br>
+        <h3><a href="index2.jsp">index2.jsp</a></h3>
+        <br>
 
-        <h2>Exemplo onde são consultados e armazanados o dia, o mes e o ano (data do servidor) e, posteriormente, os valores dessas variáveis são exibidas dentro da estrutura do html</h2>
+        <h2 id="index3">Exemplo onde são consultados e armazanados o dia, o mes e o ano (data do servidor) e, posteriormente, os valores dessas variáveis são exibidas dentro da estrutura do html</h2>
 
         <%
             LocalDate dataHoje = LocalDate.now();
@@ -49,8 +54,10 @@
         Ano: <b> <%= ano%> </b><br>
 
         <br>
+        <h3><a href="index3.jsp">index3.jsp</a></h3>
+        <br>
 
-        <h2>Exemplo escreve na página os números de 0 a 10 verticalmente (com lista não ordenada)</h2>
+        <h2 id="index4">Exemplo escreve na página os números de 0 a 10 verticalmente (com lista não ordenada)</h2>
 
         <ul>
             <%
@@ -61,8 +68,10 @@
         </ul>
 
         <br>
+        <h3><a href="index4.jsp">index4.jsp</a></h3>
+        <br>
 
-        <h2>Exemplo escreve na página a tabuada de 6 (multiplicando de 0 a 10) verticalmente (com lista ordenada)</h2>
+        <h2 id="index5">Exemplo escreve na página a tabuada de 6 (multiplicando de 0 a 10) verticalmente (com lista ordenada)</h2>
 
         <ol>
             <%
@@ -74,8 +83,10 @@
         </ol>
 
         <br>
+        <h3><a href="index5.jsp">index5.jsp</a></h3>
+        <br>
 
-        <h2>Exemplo gerando uma tabela html dinamicamente com dados de clientes oriundos de uma matriz</h2>
+        <h2 id="index6">Exemplo gerando uma tabela html dinamicamente com dados de clientes oriundos de uma matriz</h2>
 
         <%
             String[][] clientes = {
@@ -110,8 +121,10 @@
         </table>
 
         <br>
+        <h3><a href="index6.jsp">index6.jsp</a></h3>
+        <br>
 
-        <h2>Exemplo gerando uma tabela html dinamicamente com dados de clientes oriundos de uma lista de clientes (classe Cliente que está em outro pacote)</h2>
+        <h2 id="index7">Exemplo gerando uma tabela html dinamicamente com dados de clientes oriundos de uma lista de clientes (classe Cliente que está em outro pacote)</h2>
 
         <%
             List<Cliente> listaDeClientes = new ArrayList<>();
@@ -122,7 +135,7 @@
         %>
 
         <table border="1">
-            <%                
+            <%
                 out.println("<tr>");
 
                 out.println("<th>ID</th>");
@@ -137,7 +150,7 @@
 
                     out.println("<td>" + cliente.getId() + "</td>");
                     out.println("<td>" + cliente.getNome() + "</td>");
-                    out.println("<td>" + cliente.getCpf()+ "</td>");
+                    out.println("<td>" + cliente.getCpf() + "</td>");
                     out.println("<td>" + cliente.getEmail() + "</td>");
 
                     out.println("</tr>");
@@ -145,6 +158,8 @@
             %>
         </table>
 
+        <br>
+        <h3><a href="index7.jsp">index7.jsp</a></h3>
         <br>
 
     </body>
