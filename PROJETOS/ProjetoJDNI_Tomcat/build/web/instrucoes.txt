@@ -1,9 +1,0 @@
--Necessário configurar o tomcat com o projeto WEB java (JSP)
--Entre na pasta conf do tomcat e edite o arquivo context.xml, 
-acrescentendo dentro das tags <Context> o seguinte conteúdo: 
-
-<Resource name="jdbc/BancoProjetoABC" auth="Container"
-        type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver"
-        url="jdbc:mysql://localhost:3309/bancoabc"
-        username="root" password="root"
-        maxTotal="20" maxIdle="10" maxWaitMillis="-1"/>
