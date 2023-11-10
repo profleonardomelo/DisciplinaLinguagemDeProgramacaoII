@@ -8,10 +8,11 @@
     <body>
         <h1>Exercício JSP</h1>
         
-        <h2>Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6)</h2>
+        <h2>Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6) ordem crescente de tamanho</h2>
 
         <%
             String mensagem = "Olá mundo JAVA JSP";
+            
             for (int i = 6; i >= 1; i--) {
                 out.println("<h" + i + ">" + mensagem + "</h" + i + ">");
             }

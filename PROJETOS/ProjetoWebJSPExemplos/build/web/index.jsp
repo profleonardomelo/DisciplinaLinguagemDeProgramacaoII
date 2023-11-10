@@ -25,7 +25,7 @@
         <h3><a href="index1.jsp">index1.jsp</a></h3>
         <br>
 
-        <h2 id="index2">Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6)</h2>
+        <h2 id="index2">Exemplo escreve a frase "Olá mundo JAVA JSP" 6 vezes, cada vez usando uma tag de cabeçalho html diferente (H1 a H6) ordem crescente de tamanho  'q</h2>
 
         <%
             String mensagem = "Olá mundo JAVA JSP";

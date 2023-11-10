@@ -13,6 +13,7 @@
         <ol>
             <%
                 int numero = 6;
+                
                 for (int i = 0; i <= 10; i++) {
                     out.println("<li>" + numero + " x " + i + " = " + numero * i + "</li>");
                 }
