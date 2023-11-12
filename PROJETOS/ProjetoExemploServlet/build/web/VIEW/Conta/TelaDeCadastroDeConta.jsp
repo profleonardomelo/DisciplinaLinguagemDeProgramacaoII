@@ -3,10 +3,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Tela de Cadastro de Cliente</title>
+        <title>Tela de Cadastro de Conta</title>
     </head>
     <body>
-        <h1>Tela de Cadastro de Cliente</h1>
+        <h1>Tela de Cadastro de Conta</h1>
         <p>
         <%
             String mensagem =(String)request.getAttribute("mensagemCadastrar");

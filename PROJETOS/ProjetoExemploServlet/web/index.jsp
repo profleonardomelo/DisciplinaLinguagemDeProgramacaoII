@@ -8,10 +8,10 @@
     <body>
         <h1>Tela Principal</h1>
         <p>
-            <a href="Cliente/Cadastrar">Tela de Cadastro de Cliente</a>
+            <a href="Conta/Cadastrar">Tela de Cadastro de Conta</a>
         </P>
         <p>
-            <a href="Cliente/Listar ">Tela de Listagem de Clientes</a>
+            <a href="Conta/Listar">Tela de Listagem de Contas</a>
         </P>
     </body>
 </html>
