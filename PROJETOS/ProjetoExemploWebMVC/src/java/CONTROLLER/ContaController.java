@@ -1,6 +1,9 @@
 package CONTROLLER;
 
+import MODEL.DAO.ContaDAO;
+import MODEL.DTO.ContaDTO;
 import java.io.IOException;
+import java.util.List;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -34,7 +37,7 @@ public class ContaController extends HttpServlet {
         }
     }
 
-    protected void cadastrar(HttpServletRequest request, HttpServletResponse response) {
+    private void cadastrar(HttpServletRequest request, HttpServletResponse response) {
         try {
             
             String mensagem = "Esta mensagem foi enviada pelo controlador da entidade Conta, executando o método cadastrar.";
@@ -48,17 +51,23 @@ public class ContaController extends HttpServlet {
         }
     }
 
-    protected void listar(HttpServletRequest request, HttpServletResponse response) {
+    private void listar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException  {
+        
+        List<ContaDTO> listaDeContasDTO = null;
+        
         try {
             
-            String mensagem = "Esta mensagem foi enviada pelo controlador da entidade Conta, executando o método listar.";
+            listaDeContasDTO = new ContaDAO().listar();
             
-            request.setAttribute("mensagemListar", mensagem);
+        } catch (Exception ex) {
+            String teste = "";
+        }
+        finally
+        {
+            request.setAttribute("listaDeContasDTO", listaDeContasDTO);
            
             RequestDispatcher rd = request.getRequestDispatcher("../VIEW/Conta/TelaDeListagemDeContas.jsp");
             rd.forward(request, response);
-        } catch (IOException | ServletException ex) {
-
         }
     }
 }

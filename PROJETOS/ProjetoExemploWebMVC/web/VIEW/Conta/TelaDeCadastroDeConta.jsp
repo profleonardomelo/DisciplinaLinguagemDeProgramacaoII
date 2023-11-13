@@ -3,13 +3,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Tela de Listagem de Clientes</title>
+        <title>Tela de Cadastro de Conta</title>
     </head>
     <body>
-        <h1>Tela de Listagem de Clientes</h1>
+        <h1>Tela de Cadastro de Conta</h1>
         <p>
         <%
-            String mensagem =(String)request.getAttribute("mensagemListar");
+            String mensagem =(String)request.getAttribute("mensagemCadastrar");
             
             out.print(mensagem);
         %>
