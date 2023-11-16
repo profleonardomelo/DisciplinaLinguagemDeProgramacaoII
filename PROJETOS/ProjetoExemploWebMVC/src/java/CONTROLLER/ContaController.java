@@ -17,16 +17,16 @@ public class ContaController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        processarRequisicao(request, response);
     }
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        processarRequisicao(request, response);
     }
 
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    protected void processarRequisicao(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         String rota = request.getServletPath();
