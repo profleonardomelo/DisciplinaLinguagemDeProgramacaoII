@@ -9,13 +9,8 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import java.sql.SQLException;
 import java.util.List;
 
-/**
- *
- * @author leomi
- */
 @WebServlet(name = "ContaController", urlPatterns = {"/Conta/Cadastrar", "/Conta/Cadastrar_", "/Conta/Listar"})
 public class ContaController extends HttpServlet {
 
