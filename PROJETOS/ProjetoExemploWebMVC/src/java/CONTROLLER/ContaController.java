@@ -39,7 +39,6 @@ public class ContaController extends HttpServlet {
             case "/Conta/Listar" ->
                 listar(request, response);
         }
-
     }
 
     private void cadastrar(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
