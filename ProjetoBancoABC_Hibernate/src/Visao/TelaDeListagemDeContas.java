@@ -39,6 +39,7 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar listar contas!");
         } finally {
+            gerente.getEntityManagerFactory().close();
             gerente.close();
         }
     }

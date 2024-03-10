@@ -228,6 +228,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar alterar uma conta!");
         } finally {
+            gerente.getEntityManagerFactory().close();
             gerente.close();
         }
     }//GEN-LAST:event_btnAlterarActionPerformed

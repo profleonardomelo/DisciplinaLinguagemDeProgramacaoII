@@ -159,6 +159,7 @@ public class TelaDeCadastroDeConta extends javax.swing.JFrame {
         }
         finally
         {
+            gerente.getEntityManagerFactory().close();
             gerente.close();
         }
     }//GEN-LAST:event_btnCadastrarActionPerformed
