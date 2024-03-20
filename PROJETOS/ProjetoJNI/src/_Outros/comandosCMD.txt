@@ -1,0 +1,5 @@
+
+//Gerando arquivo (cabeçalho) .h na pasta classes (arquivos .class do projeto) 
+//(Nome do arquivo: Principal_ProgramaUsandoJNI.h)
+
+javac -h build\classes\Principal -d build\classes\ src\Principal\ProgramaJNI.java

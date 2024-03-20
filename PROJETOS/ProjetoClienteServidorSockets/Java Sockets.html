@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Introdução a Sockets em Java</title>
+</head>
+<body>
+
+<h1>Introdução a Sockets em Java</h1>
+
+<h2>O que são Sockets?</h2>
+
+<p>Em programação de computadores, um socket é uma forma de comunicação entre processos, permitindo que programas em diferentes máquinas troquem dados através de uma rede. Em Java, a API de Sockets é usada para implementar essa comunicação de rede.</p>
+
+<h2>Tipos de Sockets</h2>
+
+<p>Existem dois tipos principais de sockets em Java:</p>
+
+<h3>1. Socket de Cliente (Client Socket)</h3>
+
+<p>Um socket de cliente é usado para se conectar a um servidor. Ele contém informações sobre o endereço IP e a porta do servidor que ele está tentando se comunicar.</p>
+
+<h3>2. Socket de Servidor (Server Socket)</h3>
+
+<p>Um socket de servidor é usado para esperar por conexões de clientes. Quando um cliente se conecta, o servidor cria um novo socket para lidar com essa conexão.</p>
+
+<h2>Exemplo Simples de Cliente e Servidor</h2>
+
+<h3>1. Cliente</h3>
+
+<p>Um cliente em Java cria um socket e tenta se conectar a um servidor usando um endereço IP e um número de porta.</p>
+
+<pre><code>
+import java.net.*;
+import java.io.*;
+
+public class Cliente {
+    public static void main(String[] args) {
+        try {
+            Socket clienteSocket = new Socket("localhost", 12345);
+
+            // Agora você pode ler e escrever dados usando o clienteSocket
+
+            // Exemplo de leitura
+            InputStream entrada = clienteSocket.getInputStream();
+            DataInputStream dis = new DataInputStream(entrada);
+            String mensagem = dis.readUTF();
+            System.out.println("Mensagem do servidor: " + mensagem);
+
+            // Exemplo de escrita
+            OutputStream saida = clienteSocket.getOutputStream();
+            DataOutputStream dos = new DataOutputStream(saida);
+            dos.writeUTF("Olá, servidor!");
+
+            // Fechar os streams e o socket quando terminar
+            dis.close();
+            dos.close();
+            entrada.close();
+            saida.close();
+            clienteSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+
+<h3>2. Servidor</h3>
+
+<p>Um servidor em Java cria um <code>ServerSocket</code> para esperar por conexões de clientes. Quando um cliente se conecta, o servidor cria um novo socket para lidar com essa conexão.</p>
+
+<pre><code>
+import java.net.*;
+import java.io.*;
+
+public class Servidor {
+    public static void main(String[] args) {
+        try {
+            ServerSocket servidorSocket = new ServerSocket(12345);
+            System.out.println("Aguardando conexão...");
+
+            Socket clienteSocket = servidorSocket.accept();
+            System.out.println("Conexão estabelecida com " + clienteSocket.getInetAddress());
+
+            // Agora você pode ler e escrever dados usando o clienteSocket
+
+            // Exemplo de leitura
+            InputStream entrada = clienteSocket.getInputStream();
+            DataInputStream dis = new DataInputStream(entrada);
+            String mensagem = dis.readUTF();
+            System.out.println("Mensagem do cliente: " + mensagem);
+
+            // Exemplo de escrita
+            OutputStream saida = clienteSocket.getOutputStream();
+            DataOutputStream dos = new DataOutputStream(saida);
+            dos.writeUTF("Olá, cliente!");
+
+            // Fechar os streams e os sockets quando terminar
+            dis.close();
+            dos.close();
+            entrada.close();
+            saida.close();
+            clienteSocket.close();
+            servidorSocket.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
+</code></pre>
+
+<h2>Conclusão</h2>
+
+<p>Os sockets em Java são uma forma poderosa de permitir a comunicação entre processos em diferentes máquinas. Com um socket de cliente e um socket de servidor, é possível estabelecer uma comunicação eficaz pela rede. Lembre-se de lidar com exceções e fechar os recursos adequadamente para garantir um código robusto e eficiente.</p>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aula sobre Threads em Java</title>
+</head>
+<body>
+
+<h1>Threads em Java</h1>
+
+<h2>O que são Threads?</h2>
+
+<p>Em Java, uma <strong>Thread</strong> é a menor unidade de execução que um programa pode ter. Ela permite que diferentes partes do seu programa sejam executadas de forma concorrente, o que pode melhorar a eficiência e a responsividade do aplicativo.</p>
+
+<h2>Como Criar uma Thread em Java</h2>
+
+<p>Existem duas maneiras principais de criar uma thread em Java:</p>
+
+<h3>1. Estendendo a Classe Thread</h3>
+
+<p>Para criar uma thread, você pode estender a classe <code>Thread</code> e sobrescrever o método <code>run()</code>:</p>
+
+<pre><code>
+public class MinhaThread extends Thread {
+    public void run() {
+        // Código que será executado na nova thread
+    }
+}
+</code></pre>
+
+<p>Para iniciar a thread, você precisa criar uma instância da sua classe e chamar o método <code>start()</code>:</p>
+
+<pre><code>
+MinhaThread minhaThread = new MinhaThread();
+minhaThread.start();
+</code></pre>
+
+<h3>2. Implementando a Interface Runnable</h3>
+
+<p>Você também pode criar uma thread implementando a interface <code>Runnable</code>:</p>
+
+<pre><code>
+public class MinhaRunnable implements Runnable {
+    public void run() {
+        // Código que será executado na nova thread
+    }
+}
+</code></pre>
+
+<p>Para iniciar a thread, você precisa criar uma instância da sua classe que implementa <code>Runnable</code> e passá-la para um objeto <code>Thread</code>:</p>
+
+<pre><code>
+MinhaRunnable minhaRunnable = new MinhaRunnable();
+Thread minhaThread = new Thread(minhaRunnable);
+minhaThread.start();
+</code></pre>
+
+<h2>Sincronização de Threads</h2>
+
+<p>Quando múltiplas threads estão trabalhando com dados compartilhados, é importante garantir que elas acessem esses dados de forma segura para evitar condições de corrida e outros problemas. A sincronização de threads pode ser feita usando o bloqueio <code>synchronized</code> em métodos ou blocos de código críticos.</p>
+
+<pre><code>
+public synchronized void meuMetodo() {
+    // Código crítico aqui
+}
+</code></pre>
+
+<h2>Conclusão</h2>
+
+<p>As threads em Java são uma ferramenta poderosa para lidar com tarefas concorrentes. Elas permitem que diferentes partes do seu programa sejam executadas simultaneamente, o que pode melhorar a eficiência do seu aplicativo. No entanto, é importante garantir que o acesso a dados compartilhados seja seguro usando técnicas de sincronização.</p>
+
+</body>
+</html>

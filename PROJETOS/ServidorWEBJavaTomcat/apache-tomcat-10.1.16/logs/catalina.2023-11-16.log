@@ -1,0 +1,1308 @@
+16-Nov-2023 01:19:22.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 01:19:22.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 01:19:22.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 01:19:22.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 01:19:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 01:19:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 01:19:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 01:19:22.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 01:19:22.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 01:19:22.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:19:22.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:19:22.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 01:19:22.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 01:19:22.423 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:19:22.424 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 01:19:22.441 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 01:19:22.457 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 01:19:22.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:19:22.830 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [724] milliseconds
+16-Nov-2023 01:19:22.926 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 01:19:22.926 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 01:19:22.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 01:19:23.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [598] ms
+16-Nov-2023 01:19:23.550 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 01:19:24.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [766] ms
+16-Nov-2023 01:19:24.316 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 01:19:24.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [55] ms
+16-Nov-2023 01:19:24.371 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 01:19:24.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [37] ms
+16-Nov-2023 01:19:24.409 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 01:19:24.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [29] ms
+16-Nov-2023 01:19:24.441 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:19:24.499 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1666] milliseconds
+16-Nov-2023 01:19:37.345 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2023 01:19:37.346 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:19:37.356 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2023 01:19:37.386 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:19:37.404 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:22:05.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 01:22:05.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 01:22:05.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 01:22:05.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 01:22:05.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:22:05.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:22:05.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 01:22:05.239 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 01:22:05.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 01:22:05.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 01:22:05.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 01:22:05.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 01:22:05.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 01:22:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 01:22:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 01:22:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:22:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:22:05.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 01:22:05.244 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 01:22:05.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 01:22:05.505 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:22:05.533 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [518] milliseconds
+16-Nov-2023 01:22:05.590 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 01:22:05.591 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 01:22:05.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 01:22:05.955 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [354] ms
+16-Nov-2023 01:22:05.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 01:22:06.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [500] ms
+16-Nov-2023 01:22:06.455 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 01:22:06.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [55] ms
+16-Nov-2023 01:22:06.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 01:22:06.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [36] ms
+16-Nov-2023 01:22:06.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 01:22:06.587 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [38] ms
+16-Nov-2023 01:22:06.593 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:22:06.660 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1125] milliseconds
+16-Nov-2023 01:22:28.602 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2023 01:22:28.603 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:22:28.614 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2023 01:22:28.639 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:22:28.645 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:27:20.958 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 01:27:20.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 01:27:20.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:27:20.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 01:27:20.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 01:27:20.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 01:27:20.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 01:27:20.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:27:20.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 01:27:20.977 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 01:27:20.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 01:27:20.986 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 01:27:21.213 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:27:21.234 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [500] milliseconds
+16-Nov-2023 01:27:21.292 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 01:27:21.292 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 01:27:21.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 01:27:21.645 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [339] ms
+16-Nov-2023 01:27:21.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 01:27:22.041 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [395] ms
+16-Nov-2023 01:27:22.042 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 01:27:22.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [36] ms
+16-Nov-2023 01:27:22.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 01:27:22.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [37] ms
+16-Nov-2023 01:27:22.116 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 01:27:22.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [22] ms
+16-Nov-2023 01:27:22.141 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:27:22.191 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [955] milliseconds
+16-Nov-2023 01:27:23.629 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml]
+16-Nov-2023 01:27:23.629 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploServlet] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has been ignored
+16-Nov-2023 01:27:23.669 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has finished in [40] ms
+16-Nov-2023 01:27:23.683 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploServlet]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 01:28:46.980 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploServlet]
+16-Nov-2023 01:33:20.986 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml]
+16-Nov-2023 01:33:20.988 WARNING [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploServlet] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has been ignored
+16-Nov-2023 01:33:21.026 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has finished in [40] ms
+16-Nov-2023 01:33:21.029 INFO [http-nio-8080-exec-18] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploServlet]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 01:33:56.268 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploServlet] has started
+16-Nov-2023 01:33:56.308 INFO [http-nio-8080-exec-20] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploServlet] is completed
+16-Nov-2023 01:34:00.917 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploServlet] has started
+16-Nov-2023 01:34:00.951 INFO [http-nio-8080-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploServlet] is completed
+16-Nov-2023 01:40:16.909 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:40:16.911 WARNING [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:40:16.960 SEVERE [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:40:16.973 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [64] ms
+16-Nov-2023 01:40:34.059 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:40:34.068 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:40:34.069 WARNING [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:40:34.098 SEVERE [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:40:34.183 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [115] ms
+16-Nov-2023 01:45:11.594 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:45:11.597 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:45:11.597 WARNING [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:45:11.635 SEVERE [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:45:11.664 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [67] ms
+16-Nov-2023 01:47:53.659 INFO [http-nio-8080-exec-46] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:47:54.185 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:49:37.352 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:49:37.352 WARNING [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:49:37.381 SEVERE [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:49:37.612 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [260] ms
+16-Nov-2023 01:50:30.833 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:50:30.843 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:50:30.844 WARNING [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:50:30.868 SEVERE [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:50:31.004 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [161] ms
+16-Nov-2023 01:52:00.195 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:52:00.206 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:52:00.207 WARNING [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:52:00.217 SEVERE [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:52:00.478 INFO [http-nio-8080-exec-43] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [272] ms
+16-Nov-2023 01:52:40.978 INFO [http-nio-8080-exec-63] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:52:40.988 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:52:40.989 WARNING [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:52:41.013 SEVERE [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:52:41.114 INFO [http-nio-8080-exec-38] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [126] ms
+16-Nov-2023 01:52:50.271 INFO [http-nio-8080-exec-57] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:52:50.281 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:52:50.281 WARNING [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:52:50.318 SEVERE [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:52:50.359 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [78] ms
+16-Nov-2023 01:54:34.039 INFO [http-nio-8080-exec-70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:54:34.050 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:54:34.051 WARNING [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:54:34.089 SEVERE [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:54:34.175 INFO [http-nio-8080-exec-62] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [124] ms
+16-Nov-2023 01:57:57.647 INFO [http-nio-8080-exec-81] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 01:57:57.654 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 01:57:57.654 WARNING [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 01:57:57.684 SEVERE [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 01:57:57.918 INFO [http-nio-8080-exec-82] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [264] ms
+16-Nov-2023 01:58:03.515 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2023 01:58:03.515 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:58:03.524 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2023 01:58:03.536 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 01:58:03.563 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:02:45.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 02:02:45.873 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 02:02:45.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 02:02:45.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:02:45.874 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:02:45.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 02:02:45.886 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 02:02:45.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 02:02:45.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 02:02:45.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:02:45.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:02:45.888 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 02:02:45.891 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 02:02:45.898 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 02:02:46.114 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:02:46.153 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [468] milliseconds
+16-Nov-2023 02:02:46.223 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 02:02:46.223 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 02:02:46.233 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml]
+16-Nov-2023 02:02:46.254 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploServlet] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has been ignored
+16-Nov-2023 02:02:46.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploServlet.xml] has finished in [344] ms
+16-Nov-2023 02:02:46.577 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:02:46.577 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:02:46.632 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1930)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:534)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:424)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 35 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 36 more
+16-Nov-2023 02:02:46.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [88] ms
+16-Nov-2023 02:02:46.666 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 02:02:46.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [46] ms
+16-Nov-2023 02:02:46.713 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 02:02:47.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [441] ms
+16-Nov-2023 02:02:47.154 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 02:02:47.210 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [56] ms
+16-Nov-2023 02:02:47.211 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 02:02:47.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [60] ms
+16-Nov-2023 02:02:47.272 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 02:02:47.322 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [50] ms
+16-Nov-2023 02:02:47.329 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:02:47.392 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1237] milliseconds
+16-Nov-2023 02:05:40.112 INFO [http-nio-8080-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploServlet]
+16-Nov-2023 02:05:50.412 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:05:50.426 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:05:50.426 WARNING [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:05:50.465 SEVERE [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 02:05:50.694 INFO [http-nio-8080-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [267] ms
+16-Nov-2023 02:06:29.963 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:06:29.968 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:06:29.968 WARNING [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:06:30.005 SEVERE [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:641)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:489)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1731)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+		at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:294)
+		at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:811)
+		at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+		at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1474)
+		at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:968)
+		at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:334)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+		at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:597)
+		at org.apache.catalina.valves.RequestFilterValve.process(RequestFilterValve.java:355)
+		at org.apache.catalina.valves.RemoteAddrValve.invoke(RemoteAddrValve.java:54)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:673)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 42 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [Conta/Cadastrar_] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 43 more
+16-Nov-2023 02:06:30.158 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [189] ms
+16-Nov-2023 02:10:51.012 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:10:51.025 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:10:51.027 WARNING [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:10:51.050 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [25] ms
+16-Nov-2023 02:10:51.067 INFO [http-nio-8080-exec-22] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 02:11:23.613 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:11:23.695 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:11:24.343 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:11:24.375 INFO [http-nio-8080-exec-28] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:11:57.253 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:11:57.297 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:12:04.903 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:12:04.943 INFO [http-nio-8080-exec-27] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:12:22.662 INFO [http-nio-8080-exec-37] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:12:25.794 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:12:25.795 WARNING [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:12:25.834 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [40] ms
+16-Nov-2023 02:12:25.838 INFO [http-nio-8080-exec-37] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 02:13:02.744 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:13:02.788 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:13:05.562 INFO [http-nio-8080-exec-41] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:13:07.125 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:13:07.125 WARNING [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:13:07.169 INFO [http-nio-8080-exec-44] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [43] ms
+16-Nov-2023 02:13:07.171 INFO [http-nio-8080-exec-41] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 02:14:01.663 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:14:01.694 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:14:31.444 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:14:31.479 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:14:34.752 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2023 02:14:34.752 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:14:34.761 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2023 02:14:34.771 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:14:34.776 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:15:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 02:15:29.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 02:15:29.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 02:15:29.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 02:15:29.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 02:15:29.102 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 02:15:29.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 02:15:29.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 02:15:29.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 02:15:29.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:15:29.103 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:15:29.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 02:15:29.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 02:15:29.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 02:15:29.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:15:29.115 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 02:15:29.118 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 02:15:29.126 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 02:15:29.352 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:15:29.382 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [493] milliseconds
+16-Nov-2023 02:15:29.442 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 02:15:29.442 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 02:15:29.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:15:29.480 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:15:29.899 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [425] ms
+16-Nov-2023 02:15:29.900 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 02:15:29.947 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [32] ms
+16-Nov-2023 02:15:29.948 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 02:15:30.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [430] ms
+16-Nov-2023 02:15:30.378 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 02:15:30.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [46] ms
+16-Nov-2023 02:15:30.425 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 02:15:30.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [35] ms
+16-Nov-2023 02:15:30.460 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 02:15:30.481 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [21] ms
+16-Nov-2023 02:15:30.484 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:15:30.532 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1148] milliseconds
+16-Nov-2023 02:15:33.140 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:15:33.190 INFO [http-nio-8080-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:16:23.827 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:16:23.872 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:16:24.995 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:16:25.051 INFO [http-nio-8080-exec-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:16:49.478 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:16:49.543 INFO [http-nio-8080-exec-3] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:16:50.294 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:16:50.363 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:18:02.735 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:18:02.779 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:18:03.657 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:18:03.713 INFO [http-nio-8080-exec-8] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:22:51.282 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:22:51.317 INFO [http-nio-8080-exec-38] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:23:02.247 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:23:02.287 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:23:22.561 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:23:22.601 INFO [http-nio-8080-exec-33] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:23:59.221 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:23:59.266 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:24:15.914 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:24:15.964 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:25:33.505 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:25:33.543 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:25:55.093 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:25:55.129 INFO [http-nio-8080-exec-30] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:25:56.364 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:25:56.395 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:26:05.148 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:26:05.178 INFO [http-nio-8080-exec-43] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:26:05.342 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:26:05.390 INFO [http-nio-8080-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:26:17.919 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:26:17.957 INFO [http-nio-8080-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:28:42.942 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:28:42.996 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:29:01.163 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:29:01.211 INFO [http-nio-8080-exec-57] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:29:33.687 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:29:33.722 INFO [http-nio-8080-exec-55] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:29:33.839 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:29:33.869 INFO [http-nio-8080-exec-59] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:30:21.051 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:30:21.803 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:30:21.805 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:30:22.949 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:30:23.310 INFO [http-nio-8080-exec-68] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:30:23.312 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:30:24.520 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:30:24.980 INFO [http-nio-8080-exec-56] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:30:24.980 INFO [http-nio-8080-exec-56] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:31:59.192 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:31:59.194 WARNING [http-nio-8080-exec-74] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProjetoExemploWebMVC] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2023 02:31:59.195 WARNING [http-nio-8080-exec-74] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ProjetoExemploWebMVC] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+16-Nov-2023 02:31:59.484 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:971)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+16-Nov-2023 02:31:59.485 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1373)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:971)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+		at java.base/java.lang.Thread.run(Thread.java:833)
+16-Nov-2023 02:31:59.562 INFO [http-nio-8080-exec-74] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:31:59.566 INFO [http-nio-8080-exec-74] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:33:32.606 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:33:32.993 INFO [http-nio-8080-exec-72] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:33:32.994 INFO [http-nio-8080-exec-72] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:33:33.572 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:33:33.882 INFO [http-nio-8080-exec-81] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:33:33.884 INFO [http-nio-8080-exec-81] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:33:53.746 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:33:54.064 INFO [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:33:54.065 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:33:57.196 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:33:57.531 INFO [http-nio-8080-exec-84] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:33:57.532 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:34:27.306 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:34:27.583 INFO [http-nio-8080-exec-78] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:34:27.583 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:34:44.105 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:34:44.411 INFO [http-nio-8080-exec-77] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:34:44.411 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:35:11.548 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:35:11.933 INFO [http-nio-8080-exec-89] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:35:11.933 INFO [http-nio-8080-exec-89] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:35:48.233 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:35:48.541 INFO [http-nio-8080-exec-76] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:35:48.543 INFO [http-nio-8080-exec-76] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:36:13.849 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:36:14.152 INFO [http-nio-8080-exec-87] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:36:14.169 INFO [http-nio-8080-exec-87] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:36:31.558 INFO [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:36:31.875 INFO [http-nio-8080-exec-92] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:36:31.875 INFO [http-nio-8080-exec-92] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:38:22.480 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] has started
+16-Nov-2023 02:38:22.783 INFO [http-nio-8080-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:38:22.784 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoExemploWebMVC] is completed
+16-Nov-2023 02:38:27.141 INFO [http-nio-8080-exec-88] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/ProjetoExemploWebMVC]
+16-Nov-2023 02:38:31.188 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:38:31.189 WARNING [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:38:31.522 INFO [http-nio-8080-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:38:31.525 INFO [http-nio-8080-exec-96] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [336] ms
+16-Nov-2023 02:38:31.527 INFO [http-nio-8080-exec-88] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoExemploWebMVC]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 02:44:56.469 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml]
+16-Nov-2023 02:44:56.469 WARNING [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoWEBExemplosJSP] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml] has been ignored
+16-Nov-2023 02:44:56.509 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml] has finished in [39] ms
+16-Nov-2023 02:44:56.511 INFO [http-nio-8080-exec-98] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoWEBExemplosJSP]] after start() had already been called. The second call will be ignored.
+16-Nov-2023 02:45:18.585 INFO [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] has started
+16-Nov-2023 02:45:18.609 INFO [http-nio-8080-exec-104] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] is completed
+16-Nov-2023 02:45:18.748 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] has started
+16-Nov-2023 02:45:18.763 INFO [http-nio-8080-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] is completed
+16-Nov-2023 02:45:22.617 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] has started
+16-Nov-2023 02:45:22.637 INFO [http-nio-8080-exec-101] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ProjetoWEBExemplosJSP] is completed
+16-Nov-2023 02:45:40.618 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Nov-2023 02:45:40.618 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:45:40.625 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Nov-2023 02:45:40.635 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ProjetoExemploWebMVC] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+16-Nov-2023 02:45:40.636 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ProjetoExemploWebMVC] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@18.0.2/java.lang.Object.wait(Native Method)
+ java.base@18.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+ java.base@18.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@18.0.2/java.lang.Thread.run(Thread.java:833)
+16-Nov-2023 02:45:40.639 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:45:40.656 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:52:19.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.16
+16-Nov-2023 02:52:19.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 10 2023 16:17:33 UTC
+16-Nov-2023 02:52:19.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.16.0
+16-Nov-2023 02:52:19.094 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+16-Nov-2023 02:52:19.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+16-Nov-2023 02:52:19.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Nov-2023 02:52:19.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-18.0.2
+16-Nov-2023 02:52:19.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           18.0.2+9-61
+16-Nov-2023 02:52:19.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Nov-2023 02:52:19.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:52:19.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:52:19.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-10.1.16\conf\logging.properties
+16-Nov-2023 02:52:19.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Nov-2023 02:52:19.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Nov-2023 02:52:19.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-10.1.16
+16-Nov-2023 02:52:19.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-10.1.16\temp
+16-Nov-2023 02:52:19.107 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.6] using APR version [1.7.4].
+16-Nov-2023 02:52:19.107 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.11 19 Sep 2023]
+16-Nov-2023 02:52:19.361 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:52:19.381 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [465] milliseconds
+16-Nov-2023 02:52:19.438 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Nov-2023 02:52:19.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.16]
+16-Nov-2023 02:52:19.447 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml]
+16-Nov-2023 02:52:19.464 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoExemploWebMVC] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has been ignored
+16-Nov-2023 02:52:20.213 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:52:20.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoExemploWebMVC.xml] has finished in [835] ms
+16-Nov-2023 02:52:20.285 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml]
+16-Nov-2023 02:52:20.286 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoWEBExemplosJSP] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml] has been ignored
+16-Nov-2023 02:52:20.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoWEBExemplosJSP.xml] has finished in [33] ms
+16-Nov-2023 02:52:20.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\docs]
+16-Nov-2023 02:52:20.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\docs] has finished in [33] ms
+16-Nov-2023 02:52:20.352 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\examples]
+16-Nov-2023 02:52:20.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\examples] has finished in [390] ms
+16-Nov-2023 02:52:20.742 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager]
+16-Nov-2023 02:52:20.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\host-manager] has finished in [43] ms
+16-Nov-2023 02:52:20.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\manager]
+16-Nov-2023 02:52:20.824 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\manager] has finished in [38] ms
+16-Nov-2023 02:52:20.825 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Diretório de instalação da aplicação web [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT]
+16-Nov-2023 02:52:20.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\tomcat\apache-tomcat-10.1.16\webapps\ROOT] has finished in [25] ms
+16-Nov-2023 02:52:20.860 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Nov-2023 02:52:20.924 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1541] milliseconds
+16-Nov-2023 02:52:22.640 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoJNDI_Tomcat.xml]
+16-Nov-2023 02:52:22.641 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/ProjetoJNDI_Tomcat] in deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoJNDI_Tomcat.xml] has been ignored
+16-Nov-2023 02:52:23.035 INFO [http-nio-8080-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Nov-2023 02:52:23.055 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\tomcat\apache-tomcat-10.1.16\conf\Catalina\localhost\ProjetoJNDI_Tomcat.xml] has finished in [415] ms
+16-Nov-2023 02:52:23.059 INFO [http-nio-8080-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ProjetoJNDI_Tomcat]] after start() had already been called. The second call will be ignored.
