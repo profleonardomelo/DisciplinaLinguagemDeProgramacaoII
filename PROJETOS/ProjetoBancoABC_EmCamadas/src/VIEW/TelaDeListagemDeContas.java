@@ -10,30 +10,26 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
 
     public TelaDeListagemDeContas() {
         initComponents();
-        
+
         this.setLocationRelativeTo(null);
-        
+
         carregarContas();
     }
-    
-    private void carregarContas()
-    {
+
+    private void carregarContas() {
         try {
             List<ContaDTO> listaDeContasDTO = new ContaDAO().listar();
-            
+
             DefaultTableModel tabelaContas = (DefaultTableModel) tblContas.getModel();
 
             for (ContaDTO contaDTO : listaDeContasDTO) {
-                
-                Object[] conta = new Object[]{
-                    
+
+                tabelaContas.addRow(new Object[]{
                     contaDTO.getId(),
                     contaDTO.getNumero(),
                     contaDTO.getSaldo(),
                     contaDTO.getLimite()
-                };
-                
-                tabelaContas.addRow(conta);
+                });
             }
 
         } catch (Exception ex) {

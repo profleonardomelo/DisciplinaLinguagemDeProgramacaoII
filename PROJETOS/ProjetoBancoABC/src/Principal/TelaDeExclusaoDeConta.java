@@ -9,7 +9,7 @@ public class TelaDeExclusaoDeConta extends javax.swing.JFrame {
 
     public TelaDeExclusaoDeConta() {
         initComponents();
-        
+
         this.setLocationRelativeTo(null);
     }
 
@@ -109,25 +109,24 @@ public class TelaDeExclusaoDeConta extends javax.swing.JFrame {
         int id = Integer.parseInt(txtId.getText());
 
         GerenciadorBD bd = new GerenciadorBD();
-        try (Connection conexao = bd.conectar();
-            PreparedStatement comando1 = conexao.prepareStatement(
+        try (Connection conexao = bd.conectar(); PreparedStatement comando1 = conexao.prepareStatement(
                 "SELECT id FROM conta WHERE id = ?")) {
             comando1.setInt(1, id);
             ResultSet resultado = comando1.executeQuery();
 
             if (resultado.next()) {
                 try (PreparedStatement comando2 = conexao.prepareStatement(
-                    "DELETE FROM conta WHERE id = ?")) {
+                        "DELETE FROM conta WHERE id = ?")) {
 
-                comando2.setInt(1, id);
-                comando2.execute();
+                    comando2.setInt(1, id);
+                    comando2.execute();
 
-                JOptionPane.showMessageDialog(this, "Exclusão realizada com sucesso!");
+                    JOptionPane.showMessageDialog(this, "Exclusão realizada com sucesso!");
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "O ID não foi encontrado!");
             }
-        } else {
-            JOptionPane.showMessageDialog(this, "O ID não foi encontrado!");
-        }
-        txtId.setText("");
+            txtId.setText("");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar excluir uma conta!");
         }

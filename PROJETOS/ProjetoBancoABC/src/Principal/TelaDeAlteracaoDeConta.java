@@ -219,7 +219,7 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
             comando.setInt(1, numero);          
             comando.setDouble(2, saldo);
             comando.setDouble(3, limite);
-            comando.setDouble(4, id);
+            comando.setInt(4, id);
 
             comando.execute();
             JOptionPane.showMessageDialog(this, "Alteração realizada com sucesso!");

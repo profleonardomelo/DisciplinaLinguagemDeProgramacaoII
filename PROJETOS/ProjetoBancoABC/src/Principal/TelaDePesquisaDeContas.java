@@ -128,17 +128,18 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
             comando.setString(1, "%" + numero + "%");
 
             try (ResultSet tabela = comando.executeQuery()) {
+                
                 DefaultTableModel tabelaContas = (DefaultTableModel) tblContas.getModel();
+                
                 tabelaContas.setRowCount(0);
 
                 while (tabela.next()) {
-                    Object[] conta = new Object[]{
+                tabelaContas.addRow(new Object[]{
                         tabela.getInt("id"),
                         tabela.getInt("numero"),
                         tabela.getDouble("saldo"),
                         tabela.getDouble("limite")
-                    };
-                    tabelaContas.addRow(conta);
+                    });
                 }
             }
             JOptionPane.showMessageDialog(this, "Pesquisa realizada com sucesso!");

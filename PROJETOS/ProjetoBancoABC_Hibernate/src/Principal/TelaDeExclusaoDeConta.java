@@ -107,9 +107,11 @@ public class TelaDeExclusaoDeConta extends javax.swing.JFrame {
     private void btnExcluirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExcluirActionPerformed
         int id = Integer.parseInt(txtId.getText());
 
-        EntityManager gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+        EntityManager gerente = null;
 
         try {
+            gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+
             Conta c = gerente.find(Conta.class, id);
 
             if (c != null) {

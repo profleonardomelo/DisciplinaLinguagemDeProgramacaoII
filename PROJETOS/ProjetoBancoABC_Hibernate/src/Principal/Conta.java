@@ -1,27 +1,20 @@
 package Principal;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name = "conta")
 public class Conta {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue
     private int id;
-    
-    @Column(name = "numero")
+   
     private int numero;
     
-    @Column(name = "saldo")
     private double saldo;
     
-    @Column(name = "limite")
     private double limite; 
     
     public Conta()

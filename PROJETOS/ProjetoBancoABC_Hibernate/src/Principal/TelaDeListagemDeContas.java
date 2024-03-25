@@ -17,23 +17,22 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
     }
 
     private void carregarContas() {
-        EntityManager gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+        EntityManager gerente = null;
 
         try {
-            gerente.getTransaction().begin();
+            gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+
             List<Conta> contas = gerente.createQuery("from Conta").getResultList();
-            gerente.getTransaction().commit();
 
             DefaultTableModel tabelaContas = (DefaultTableModel) tblContas.getModel();
 
             for (Conta conta : contas) {
-                Object[] contaArray = new Object[]{
+                tabelaContas.addRow(new Object[]{
                     conta.getId(),
                     conta.getNumero(),
                     conta.getSaldo(),
                     conta.getLimite()
-                };
-                tabelaContas.addRow(contaArray);
+                });
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar listar contas!");

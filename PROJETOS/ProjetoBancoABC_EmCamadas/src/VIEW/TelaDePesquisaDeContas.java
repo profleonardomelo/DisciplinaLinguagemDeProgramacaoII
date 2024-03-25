@@ -121,19 +121,17 @@ public class TelaDePesquisaDeContas extends javax.swing.JFrame {
             List<ContaDTO> listaDeContasDTO = new ContaDAO().pesquisar(contaDTO);
             
             DefaultTableModel tabelaContas = (DefaultTableModel) tblContas.getModel();
+            
             tabelaContas.setRowCount(0);
 
             for (ContaDTO contaDTO_ : listaDeContasDTO) {
                 
-                Object[] conta = new Object[]{
-                    
+                tabelaContas.addRow(new Object[]{
                     contaDTO_.getId(),
                     contaDTO_.getNumero(),
                     contaDTO_.getSaldo(),
                     contaDTO_.getLimite()
-                };
-                
-                tabelaContas.addRow(conta);
+                });
             }
             
             JOptionPane.showMessageDialog(this, "Pesquisa realizada com sucesso!");

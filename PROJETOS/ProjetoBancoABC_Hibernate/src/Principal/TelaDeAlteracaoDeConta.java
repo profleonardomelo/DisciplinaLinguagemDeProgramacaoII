@@ -211,9 +211,11 @@ public class TelaDeAlteracaoDeConta extends javax.swing.JFrame {
         double saldo = Double.parseDouble(txtSaldo.getText().replace(',', '.'));
         double limite = Double.parseDouble(txtLimite.getText().replace(',', '.'));
 
-        EntityManager gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+        EntityManager gerente = null;
 
         try {
+            gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
+
             Conta c = new Conta(numero, saldo, limite);
             c.setId(id);
 

@@ -32,16 +32,13 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
                 
                 clienteDTO = new ClienteDAO().pesquisarPorId(clienteDTO);
                 
-                Object[] conta = new Object[]{
-                    
+                tabelaContas.addRow(new Object[]{
                     contaDTO.getId(),
                     contaDTO.getNumero(),
                     contaDTO.getSaldo(),
                     contaDTO.getLimite(),
                     clienteDTO
-                };
-                
-                tabelaContas.addRow(conta);
+                });  
             }
 
         } catch (Exception ex) {

@@ -29,15 +29,12 @@ public class TelaDeListagemDeContas extends javax.swing.JFrame {
             DefaultTableModel tabelaContas = (DefaultTableModel) tblContas.getModel();
             
             while (tabela.next()) {
-                Object[] conta = new Object[]{
-                    
+                tabelaContas.addRow(new Object[]{
                     tabela.getInt("id"),
                     tabela.getInt("numero"),
                     tabela.getDouble("saldo"),
                     tabela.getDouble("limite")
-                };
-                
-                tabelaContas.addRow(conta);
+                });
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar listar contas!");
