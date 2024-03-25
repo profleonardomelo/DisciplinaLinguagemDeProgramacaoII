@@ -141,8 +141,9 @@ public class TelaDeCadastroDeConta extends javax.swing.JFrame {
         double saldo = Double.parseDouble(txtSaldo.getText().replace(',', '.'));
         double limite = Double.parseDouble(txtLimite.getText().replace(',', '.'));
 
-        EntityManager gerente = Persistence.createEntityManagerFactory("hibernate").createEntityManager();
-        
+        EntityManager gerente = Persistence.createEntityManagerFactory("hibernate")
+                .createEntityManager();
+
         try {
             Conta c = new Conta(numero, saldo, limite);
 
@@ -155,11 +156,11 @@ public class TelaDeCadastroDeConta extends javax.swing.JFrame {
             LimparCampos();
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro ao tentar cadastrar uma nova conta!");
-        }
-        finally
-        {
-            gerente.getEntityManagerFactory().close();
-            gerente.close();
+        } finally {
+            if (gerente != null) {
+                gerente.getEntityManagerFactory().close();
+                gerente.close();
+            }
         }
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
