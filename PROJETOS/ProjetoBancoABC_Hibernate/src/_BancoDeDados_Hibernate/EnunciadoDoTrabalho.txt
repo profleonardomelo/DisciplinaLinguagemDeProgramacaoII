@@ -1,0 +1,84 @@
+Abaixo são descritas classes com seus respectivos atributos e tipos de dados. 
+Escolha duas classes, e para cada uma das classes escolhidas, desenvolva:
+a classe de negógio em java (mapeada para o hibernate) e suas 4 telas CRUD 
+(Tela de Cadastro, Tela de Alteração, Tela de Exclusão e Tela de Listagem).
+Utilize como base o projeto java do netbeans ProjetoBancoABC_Hibernate.  
+
+Professor:
+   id (int)
+   nome (String)
+   materia (String)
+   email (String)
+   matricula (int)
+
+Advogado:
+   id (int)
+   nome (String)
+   especialidade (String)
+   email (String)
+   telefone (String)
+
+Musica:
+   id (int)
+   titulo (String)
+   artista (String)
+   album (String)
+   anoLancamento (int)
+   duracaoSegundos (int)
+
+Computador:
+   id (int)
+   marca (String)
+   modelo (String)
+   sistemaOperacional (String)
+   capacidadeMemoria (int)
+   capacidadeDiscoRigido (int)
+   processador (String)
+
+ConstrucaoCivil:
+   id (int)
+   nome (String)
+   localizacao (String)
+   tipo (String)
+   dataInicio (String)
+   dataConclusao (String)
+
+Veiculo:
+   id (int)
+   marca (String)
+   modelo (String)
+   ano (int)
+   cor (String)
+   placa (String)
+
+Corrida:
+   id (int)
+   nome (String)
+   local (String)
+   data (String)
+   distancia (double)
+   vencedor (String)
+
+TimeFutebol:
+   id (int)
+   nome (String)
+   fundacao (String)
+   estadio (String)
+   cidade (String)
+   estado (String)
+
+EventoCultural:
+   id (int)
+   nome (String)
+   tipo (String)
+   dataInicio (String)
+   dataFim (String)
+   local (String)
+
+Viagem:
+   id (int)
+   destino (String)
+   dataPartida (String)
+   dataRetorno (String)
+   companhiaAerea (String)
+   preco (double)
